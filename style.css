@@ -1,0 +1,21 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.hero {
+    background-image: url('hero.jpg'); /* Asegúrate de que la imagen se llame así */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro {
+    padding: 50px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
